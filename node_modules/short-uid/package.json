@@ -1,0 +1,24 @@
+{
+  "name": "short-uid",
+  "description": "Length Efficient Unique ID Generator",
+  "version": "0.1.0",
+  "author": "Ankit Kuwadekar",
+  "main": "./lib/short-uid.js",
+  "scripts": {
+    "postInstall": "make"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "uuid",
+    "uid",
+    "short",
+    "generator"
+  ],
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "mocha": "^1.21.4",
+    "uglify-js": "^2.4.15"
+  }
+}
